@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+
+      "@react-native-google-maps/google-maps": "^0.1.0", 
+      "axios": "^1.7.2",
+      "socket.io-client": "^4.7.5",
+      "@stripe/stripe-react-native": "^0.31.0",
+      "react-native-push-notification": "^8.1.1",
+      "react-native-geolocation-service": "^5.3.1"
+    }
+  }

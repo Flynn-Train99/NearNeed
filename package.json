@@ -1,0 +1,17 @@
+{
+    "name": "nearneed",
+    "version": "1.0.0",
+    "description": "A hyper-local platform for connecting people within a specified radius",
+    "main": "index.js",
+    "scripts": {
+      "start:backend": "cd backend && npm run dev",
+      "start:web": "cd frontend/web && npm start",
+      "start:mobile": "cd frontend/mobile && npm start",
+      "install:all": "npm run install:backend && npm run install:web && npm run install:mobile",
+      "install:backend": "cd backend && npm install",
+      "install:web": "cd frontend/web && npm install",
+      "install:mobile": "cd frontend/mobile && npm install"
+    },
+    "author": "",
+    "license": "ISC"
+  }
